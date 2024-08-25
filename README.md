@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ### 2. Run the Script
 
 ```bash
-python ollama_reponse_test.py
+python ollama_response_test.py
 ```
 
 ### 3. View the Output
