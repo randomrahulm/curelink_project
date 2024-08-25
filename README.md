@@ -28,7 +28,7 @@ This project utilizes the `OllamaLLM` model to generate personalized, concise re
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/randomrahulm/curelink_project
+git clone https://github.com/randomrahulm/curelink_project.git
 cd curelink_project
 pip install -r requirements.txt
 ```
