@@ -2,7 +2,7 @@
 
 # Curelink Project
 
-This project utilizes the `OllamaLLM` model to generate personalized, concise responses for patients based on their dietary history, diet chart, and latest meal updates. The responses are intended to provide specific, actionable advice that aligns with the patient's health goals while maintaining a conversational and empathetic tone.
+This project utilizes the `OllamaLLM` `llama3.1`  model to generate personalized, concise responses for patients based on their dietary history, diet chart, and latest meal updates. The responses are intended to provide specific, actionable advice that aligns with the patient's health goals while maintaining a conversational and empathetic tone.
 
 ## Project Overview
 
@@ -12,7 +12,7 @@ This project utilizes the `OllamaLLM` model to generate personalized, concise re
 2. **Process Each Query**:
    - Extracts key information including the patient's profile, diet chart, chat history, and latest meal query.
    - Constructs a detailed prompt that incorporates the patient's context and instructions for generating a response.
-   - Uses the `OllamaLLM` model to generate a response.
+   - Uses the `OllamaLLM` `llama3.1`model to generate a response.
 3. **Store Responses**: Saves the generated responses along with their corresponding queries in a JSON file (`output.json`).
 
 ### Prerequisites
